@@ -2,11 +2,10 @@
 
 ## Timothy Long CAB022105  
 
-  
 
-URL :  
+GitHub repo URL:  https://github.com/tfxl/tfxl.github.io
 
-GitHub repo :  
+Website deploy via GitHub : https://tfxl.github.io
   
 The purpose of this website is to communicate graphical and coding ability to a prospective employer. It will demonstrate a visual awareness, a recognition of appropriate design, and learnt coding skills.  
   
