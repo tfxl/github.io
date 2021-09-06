@@ -28,6 +28,7 @@ Tech Stack to create this website are html and css. Further use of git, Github, 
 
 Wireframes, sitemap and screen shots of the website in design and devlopment can be found in the following .pdf file:
 
-https://github.com/tfxl/tfxl.github.io/blob/main/LONG%20T1A2%20Slide%20Deck%20PDF.pdf
+https://github.com/tfxl/tfxl.github.io/blob/main/ppt/LONG%20T1A2%20Slide%20Deck%20PDF.pdf
 
 For convenience there is an additional site map at this address:
+https://github.com/tfxl/tfxl.github.io/blob/main/docs/LONG%20T1A2%20Site%20Map.pdf

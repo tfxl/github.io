@@ -1,0 +1,29 @@
+commit 68b2d370b56eea4bdacd80b00e6d1a791c791b87
+Author: tfxl <CAB022105@coderacademy.edu.au>
+Date:   Mon Sep 6 23:49:25 2021 +1000
+
+    additional security and comments
+
+commit e0f0911f9dbea1d0c2644ed8f9646ea474b4b3ce
+Author: tfxl <CAB022105@coderacademy.edu.au>
+Date:   Mon Sep 6 14:08:18 2021 +1000
+
+    slide deck .pdf committed to compliment powerpoint
+
+commit b4a051332c6d0d9674567fbef83493355bb398b0
+Author: tfxl <89055534+tfxl@users.noreply.github.com>
+Date:   Mon Sep 6 09:54:26 2021 +1000
+
+    Update README.md
+
+commit fee0e8237b096b3871f2e86dfab6e6b3361dce34
+Author: tfxl <CAB022105@coderacademy.edu.au>
+Date:   Sun Sep 5 23:53:43 2021 +1000
+
+    launch website to public page
+
+commit 8890bb02b9f7eaca1427ab808a235a54d58f7d2d
+Author: tfxl <89055534+tfxl@users.noreply.github.com>
+Date:   Sun Sep 5 23:49:16 2021 +1000
+
+    Create preview.txt
