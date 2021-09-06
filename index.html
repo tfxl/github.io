@@ -8,207 +8,256 @@
 
   <title>parent &#8226; tfxl &#8226; programmer</title>
 
-  <!-- <script type="text/javascript" src="/script/script.js"></script> -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous">
-  </script>  -->
+
+  <link rel="stylesheet" href="/css/style_main_site.css" integrity="sha384-c1S304qMMQ37hQKhQDGA/2gkAa6QmbyL78xiLpIEAXds3JypPFMwHAf6MVj7Y8+6" integrity="sha512-1lk1MzzP//jNEaxXBwNvdMBZLqPQTDUqQb9IX4JP+aNSU0xTWZvNvAkbQAmMpzJPPIhEssRRjrm9CaiWsRfoaA==">
+
+  <link rel="stylesheet" href="/css/style_responsiveness.css" integrity="P8w2f9ZkyaOQlTZXoUUu1whWHwNtUBbNjlQvPH3jKEL5ijNXE9nt80EBwran/lP2" integrity="sha512-Duz0VFFKzsfYlFJgWkrRGRRHZemtjBwAll+KrHxv8VJMVgJU8PP79+MbjMG7Uj0lyG8oOqfaqt1DTZekSg1NBw==">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+ 
+  <!-- Fonts are collected through google font, while standard fonts for paragraphs has been retained. This offers some serif
+  styling which can be useful for longer paragraphs, while serif allows for a clean and modern text for smaller areas of 
+  text, at least in this design. The google fonts are good to bring in for additional character and styling. -->
   
-  <!-- Commented out for illustration purposes for project -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/css/style_head.css">
-  <link rel="stylesheet" href="/css/style_main.css">
-  <link rel="stylesheet" href="/css/style_main_cards.css">
 
-  <link rel="stylesheet" href="/css/style_footer.css">
-  <link rel="stylesheet" href="/css/style_topbar.css">
-  <link rel="stylesheet" href="/css/style_mq_tablet.css">
-  <link rel="stylesheet" href="/css/style_mq_phone.css">
-  
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Righteous&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arima+Madurai&display=swap" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <link rel="stylesheet" href="/css/just_for_links.css">
-
-  
+ 
  
 </head>
 
 <body>
-  <article>
+  
 
-    <section id="top_of_site_section">
+  <section id="top_of_site_section">
 
-      <header id = "topbar">
+    <!-- This section contains a lot of components, including a header which is of primary importance in the tablet and 
+    phone viewport sizes, where users are used to access to menus, and the header can follow the user through the page
+    to retain the "tfxl" identity. The header is divided into it's own sections, with paragraphs used to house links for 
+    greater control with styling, and the option to add text if desired. Spans within the h2 heading section, as utilised
+    throughout the site, give greater control of styling individual sections of text for maximum impact, while housed in 
+    a semantic h2 tag, which itself is usually within its own container -->
 
-          <section id="topbar_contact">
-            <p id="topbar_my_contact">        
-              <a href="https://www.w3schools.com/howto/howto_css_contact_section.asp" class="fa fa-address-card-o"></a>
-            </p>   
-          </section>
-    
-          <h2 id="topbar_heading">
-            <span class="parent_span">&nbsp;&nbsp;&nbsp;&nbsp;parent &#8226;&nbsp;&nbsp;</span>
-            tfxl
-            <span class="programmer_span">&nbsp;&#8226;programmer</span>
-          </h2>
-    
-          <section id="topbar_menu">
-            <p><a href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp" class="fa fa-bars"></a></p>
-          </section>
-    
-      </header>
+    <header id = "topbar">
 
-      <h1>...why we code...</h1>
+        <section id="topbar_contact">
+          <p id="topbar_my_contact">        
+            <a href="https://www.w3schools.com/howto/howto_css_contact_section.asp" class="fa fa-address-card-o"></a>
+          </p>   
+        </section>
+  
+        <h2 id="topbar_heading">
+          <span class="parent_span">&nbsp;&nbsp;&nbsp;&nbsp;parent &#8226;&nbsp;&nbsp;</span>
+          tfxl
+          <span class="programmer_span">&nbsp;&#8226;programmer</span>
+        </h2>
+  
+        <section id="topbar_menu">
+          <p><a href="https://www.w3schools.com/howto/howto_js_mobile_navbar.asp" class="fa fa-bars"></a></p>
+        </section>
+  
+    </header>
 
-      <h2 id="identity_subheading">
-        <span class="parent_span">&nbsp;&nbsp;&nbsp;&nbsp;parent &#8226;&nbsp;&nbsp; </span>
-        tfxl
-        <span class="programmer_span"> &#8226; programmer</span>
-      </h2>
-          
-      <figure> 
-        <img id="main_image" src ="/image/t_and_m.jpg" alt="photo of website author holding his baby">
-      </figure>
+    <!-- The encapsulating section tag ontains many components within its scope, including the above header, and the following headings 
+    h1 and h2, which allow different     CSS styling and sizing, and the use of spans within the h2 menu give more customisation. 
+    This has allowed the headings to be a little more elegant, and convey messaging beyond the text themselves. The section wrap 
+    also gives an overall grid to work with to keep components within their own responsive sections. -->
 
-      <nav id="my_nav">
-        <p class="nav_item"><a href="#portfolio_statement">portfolios</a></p>
-        <p class="nav_dot">&#8226;</p>
-        <p class="nav_item"><a href="#heading_about">personals</a></p>
-        <p class="nav_dot">&#8226;</p>
-        <p class="nav_item"><a href="#socials_section">platforms</a></p>
-        <p class="nav_dot">&#8226;</p>
-        <p class="nav_item"><a href="#container_posts">posts</a></p>
-      </nav>
+    <h1>...why we code...</h1>
 
-      <p id="mission_statement_1">we're developing our world for the next generation</p>
+    <h2 id="identity_subheading">
+      <span class="parent_span">&nbsp;&nbsp;&nbsp;&nbsp;parent &#8226;&nbsp;&nbsp; </span>
+      tfxl
+      <span class="programmer_span"> &#8226; programmer</span>
+    </h2>
+        
+    <!-- A short mention that the figure tags allow semantic html, housing an image with an "alt" attribute. This forms
+    the primary display on all viewports and is coupled with stylish font to create the desired effect.  -->
+
+    <figure> 
+      <img id="main_image" src ="/image/t_and_m.jpg" alt="photo of website author holding his baby">
+    </figure>
+
+    <!-- The navigation has utilised a semantic tag nav while containing multiple paragraph tags to allow control over
+    styling and sizing, and let anchor tags be placed within. This helps with site navigation. Even though the main 
+    site is designed to scroll through, this allows the user to jump to those sections quickly, or redirect to the 
+    posts page, which is separate.  -->
+
+    <nav id="my_nav">
+      <p class="nav_item"><a href="#portfolio_statement">portfolios</a></p>
+      <p class="nav_dot">&#8226;</p>
+      <p class="nav_item"><a href="#heading_about">personals</a></p>
+      <p class="nav_dot">&#8226;</p>
+      <p class="nav_item"><a href="#socials_section">platforms</a></p>
+      <p class="nav_dot">&#8226;</p>
+      <p class="nav_item"><a href="#container_posts">posts</a></p>
+    </nav>
+
+    <p id="mission_statement_1">we're developing our world for the next generation</p>
 
 
+  </section>
+
+  <!-- This main section houses many semantic tags and components, and is itself the most significant part of the information
+  provided in this site, compared with the more graphical initial section. As such, there are multiple containers used
+  to display this text, with additional major headings , figure and img tags, and of course, paragraphs. These paragraph 
+  tags have often been used multiple times to create bodies of text which can be individually styled.  -->
+
+  <main>
+
+    <h1 id="heading_about"><span class="rotate270">ABOUT</span></h1>
+
+    <!-- Semantic figure and image, with the important "alt" attribute included. -->
+
+    <figure>
+      <img id="close_up_photo" src="/image/t_cropped.jpg" alt="close up photo of author's face">
+    </figure>
+
+    <!-- These "about" containers separate primarily personal and primarily professional bio information, although the content does cross
+    over somewhat, which I'm happy with. However, to further individualize these ideas, the backgrounds are different colours (white/black)
+    and the text is in opposite contrast. These expand in height for responsive design through CSS so as to retain the content. They are simple
+    section containers with paragraphs, allowing the CSS to create further margins and responsiveness.  -->
+
+    <section id="container_about_paragraphs">
+      <p>This is the newest member to our family, and I've chosen this photo because it encapsulates the most important part of my life. Being a proud father.</p>
+
+      <p>At 35 years old, I've experienced quite a lot in life; valued the good times, and learnt from the hard ones. I recognise the future holds a significant amount more to learn and offer. That is one of the reasons I've become a programmer. </p>      
+
+      <p>I'm passionate about philosophy and policy, and have an interest in discussing truth, facts and when the two seemingly don't align. This is like code.</p>   
     </section>
 
-<!-- ############### MAIN SECTION ############################################ -->
 
-    <main>
-
-      <h1 id="heading_about"><span class="rotate270">ABOUT</span></h1>
-
-      <figure>
-        <img id="close_up_photo" src="/image/t_cropped.jpg" alt="close up photo of face">
-      </figure>
-
-
-      <section id="container_about_paragraphs">
-        <p>This is the newest member to our family, and I've chosen this photo because it encapsulates the most important part of my life. Being a proud father.</p>
-
-        <p>At 35 years old, I've experienced quite a lot in life; valued the good times, and learnt from the hard ones. I recognise the future holds a significant amount more to learn and offer. That is one of the reasons I've become a programmer. </p>      
-
-        <p>I'm passionate about philosophy and policy, and have an interest in discussing truth, facts and when the two seemingly don't align. This is like code.</p>   
-      </section>
-
-
-      <section id="container_programming_paragraphs">
-        <p>My interest in programming is driven from a desire to solve problems, in the abstract and the real world, particularly when they overlap. I have spent a signficant amount of time involved in web technology through formal courses, which are listed below, and informal learning and experience.</p>
-        <p>One of my interests in information technology is the creation of products that not only meet the expectation of the client, but also find ways to add value that was not realised prior. Every project has meaning to me, which is an essential requirement to be fully involved.</p>
-        <p>While in the early stages of career development, it is exciting to learn techniques that provide an insight into the field of front-end web-development and object oriented programming.  </p>        
-        
-      </section>    
-         
-
-      <p id="mission_statement_2">vote 'yes' to support gain-of-function research for ie browsers</p>
+    <section id="container_programming_paragraphs">
+      <p>My interest in programming is driven from a desire to solve problems, in the abstract and the real world, particularly when they overlap. I have spent a signficant amount of time involved in web technology through formal courses, which are listed below, and informal learning and experience.</p>
+      <p>One of my interests in information technology is the creation of products that not only meet the expectation of the client, but also find ways to add value that was not realised prior. Every project has meaning to me, which is an essential requirement to be fully involved.</p>
+      <p>While in the early stages of career development, it is exciting to learn techniques that provide an insight into the field of front-end web-development and object oriented programming.  </p>        
       
-      <section id="container_qualifications">
+    </section>    
+        
+    <!-- Utilising a different font conveys an important message, and this paragraph has been given a "mission_statement" id (one of 2)
+    In this particular presentation, I have kept the message fun, as it is suitable at this stage of development. As the page evolves
+    the messaging may change, however it injects a little humour into the page before reaching the posts -->
+
+    <p id="mission_statement_2">vote 'yes' to support gain-of-function research for ie browsers</p>
+
+    <!-- The container for qualifications was played around with a lot, including creating expandable cards, then rotated cards and 
+    finally settled on a flat, shadowed and centered within available whitespace option. This brought it back to the design That
+    I was trying to achieve. Something elegant and sleek, while allowing a little character to jump through, but avoid the clutter
+    that many effects (rotations/slides) etc were bringing to my design. I found this to be difficult to achieve, and chased it 
+    for quite a while, before bringing it back to a simple yet, hopefully, more elegant design. It incorporates CSS for colours,
+    shading, position, and contains multiple paragraphs, with a button for the link to a mock-up resume file.  -->
+    
+    <section id="container_qualifications">
+      <p>
+        Graduate Diploma of Technology DipTech (Coder Academy)<br>
+      </p>
+      <p>Information & Database Systems &nbsp;&nbsp;||&nbsp;&nbsp; Front + Back End Web Development</p>
+      <p>
+        HTML &nbsp;&nbsp;||&nbsp;&nbsp; CSS &nbsp;&nbsp;||&nbsp;&nbsp; SASS &nbsp;&nbsp;||&nbsp;&nbsp;Bootstrap &nbsp;&nbsp;||&nbsp;&nbsp;JavaScript
+      </p>
+      <p>
+      Python &nbsp;&nbsp;||&nbsp;&nbsp; Java &nbsp;&nbsp;||&nbsp;&nbsp; Ruby &nbsp;&nbsp;||&nbsp;&nbsp; Ruby on Rails &nbsp;&nbsp; || React
+      </p>
+      <p id="resume_link_para"> Please click <a href="/docs/resume_placeholder.pdf" target="_blank"><button> HERE</button></a> for a .pdf copy of resume</p>
+    </section>
+
+    <!-- This heading is a complicated one to style with CSS due to the movement and changing grid as the page works to be responsive.
+    The h1 tag has been utilised due to the major feature on the page, that didn't quite fit a subheading, although it could arguably
+    have been a h2. So, while recognising this, I have maintained it as a major heading with importance connoted.  -->
+  
+    <h1 id="heading_full_stack_dev"><span class="rotate90">FULL&nbsp;&nbsp;&nbsp;STACK&nbsp;&nbsp;&nbsp;DEV</span></h1>
+
+    <p id="portfolio_statement">Portfolios coming soon</p>
+
+<!-- This is one of my favourite sections, as it adapted well to responsiveness sizing, 
+  but namely because it was fun thinking of titles, and the potential entertainment value -->
+<!--This section also contains many elements to work, including sections, anchors, paragraphs and spans. 
+  It has hover effect implemented in CSS. The post pages themselves have many components to create an 
+interesting and readable formate -->
+    
+    <section id="container_posts">
+      <a href="./post1.html">
         <p>
-          Graduate Diploma of Technology DipTech (Coder Academy)<br>
+          <span class="date_text">07 / 08 / 21</span> 
+          <br> the reason why robins are immune to covid
         </p>
-        <p>Information & Database Systems &nbsp;&nbsp;||&nbsp;&nbsp; Front + Back End Web Development</p>
+      </a>
+      <a href="./post2.html">
         <p>
-          HTML &nbsp;&nbsp;||&nbsp;&nbsp; CSS &nbsp;&nbsp;||&nbsp;&nbsp; SASS &nbsp;&nbsp;||&nbsp;&nbsp;Bootstrap &nbsp;&nbsp;||&nbsp;&nbsp;JavaScript
+          <span class="date_text">14 / 08 / 21</span>
+          <br>why don't jelly fish taste like real jelly ?
         </p>
+      </a>
+      <a href="./post3.html">
         <p>
-        Python &nbsp;&nbsp;||&nbsp;&nbsp; Java &nbsp;&nbsp;||&nbsp;&nbsp; Ruby &nbsp;&nbsp;||&nbsp;&nbsp; Ruby on Rails &nbsp;&nbsp; || React
+          <span class="date_text">21 / 08 / 21</span> 
+          <br> what if an elephant 
+          <span class="italics">wants</span> to forget?
         </p>
-        <p id="resume_link_para"> Please click <a href="/pdf/resume_placeholder.pdf" target="_blank"><button> HERE</button></a> for a .pdf copy of resume</p>
-      </section>
-   
-      <h1 id="heading_full_stack_dev"><span class="rotate90">FULL&nbsp;&nbsp;&nbsp;STACK&nbsp;&nbsp;&nbsp;DEV</span></h1>
+      </a>
+        <a href="./post4.html"><p>
+          <span class="date_text">28 / 08 / 21</span> 
+          <br> the world is not flat... proof it's a pyramid
+        </p>
+      </a>
+      <a href="./post5.html">
+        <p>
+          <span class="date_text">04 / 09 / 21</span>
+          <br> are gorillas just pretending
+        </p>
+      </a>
+    </section>
 
-      <p id="portfolio_statement">Portfolios coming soon</p>
+    <!-- This figure features in the main section, to bring a little greyscale back into the area. It also has CSS responnsiveness.
+    At one point the file moves to the side to fit within a narrow margin, obscuring part of the image, however I am happy with
+    this design, where focus can be directed to the text. Figure and img tags work well here. -->
 
-      <section id="container_posts">
-        <a href="./post1.html">
-          <p>
-            <span class="date_text">07 / 08 / 21</span> 
-            <br> the reason why robins are immune to covid
-          </p>
-        </a>
-        <a href="./post2.html">
-          <p>
-            <span class="date_text">14 / 08 / 21</span>
-            <br>why don't jelly fish taste like real jelly ?
-          </p>
-        </a>
-        <a href="./post3.html">
-          <p>
-            <span class="date_text">21 / 08 / 21</span> 
-            <br> what if an elephant 
-            <span class="italics">wants</span> to forget?
-          </p>
-        </a>
-          <a href="./post4.html"><p>
-            <span class="date_text">28 / 08 / 21</span> 
-            <br> the world is not flat... proof it's a pyramid
-          </p>
-        </a>
-        <a href="./post5.html">
-          <p>
-            <span class="date_text">04 / 09 / 21</span>
-            <br> are gorillas just pretending
-          </p>
-        </a>
-      </section>
+    <figure id="photo_smile">
+      <img src="/image/face_2b.jpg" alt="photo of website author smiling">
+    </figure>
 
-      <figure id="photo_smile">
-        <img src="/image/face_2b.jpg" alt="photo of website author smiling">
-      </figure>
+  </main>
 
-    </main>
+  <!-- The footer required multiple sections to bring it together, using CSS to add color and sizing.
+  The HTML utilises a section container for the paragrahs and anchors, with the headings and spans for text styling.
+  The footer container creates a semantic element that holds it all together. Furthermore the use of stylesheets to 
+  bring in the information to create these icons works well within the paragraph tag and section container, allowing
+  me to have greater holds over the styling -->
 
-    <footer>
+  <footer>
 
-      <section id="socials_section">
-        <p id="my_socials">        
-          <a href="https://www.facebook.com/pages/create/?ref_type=site_footer" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/i/flow/signup?" class="fa fa-twitter"></a>
-          <a href="https://www.linkedin.com/signup" class="fa fa-linkedin"></a>
-          <a href="https://github.com/" class="fa fa-github"></a>
-        </p>   
-      </section>
+    <section id="socials_section">
+      <p id="my_socials">        
+        <a href="https://www.facebook.com/pages/create/?ref_type=site_footer" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/i/flow/signup?" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/signup" class="fa fa-linkedin"></a>
+        <a href="https://github.com/tfxl/tfxl.github.io/" class="fa fa-github"></a>
+      </p>   
+    </section>
 
-      <h2 id="footer_heading">
-        <span class="parent_span">&nbsp;&nbsp;&nbsp;&nbsp;parent &#8226;&nbsp;&nbsp; </span>
-        tfxl
-        <span class="programmer_span"> &#8226; programmer</span>
-      </h2>
+    <!-- A brief note here that the spans within the subheading allowed control over the individual styling, even if they
+    do not add any further semantic importance. Given the overall encapsulation within the footer, there is enough
+    guidance to allow for this.  -->
 
-      <section id="footer_address">
-        <p>tfxl.<span id="shrink_email_numbers">022105</span>@gmail.com</p>
-      </section>
+    <h2 id="footer_heading">
+      <span class="parent_span">&nbsp;&nbsp;&nbsp;&nbsp;parent &#8226;&nbsp;&nbsp; </span>
+      tfxl
+      <span class="programmer_span"> &#8226; programmer</span>
+    </h2>
 
-    </footer>
+    <!-- Here, the address has numbers within it, so the span allowed additional styling to better match font sizing with other
+    characters. The spans are within a paragraph tage, within a section container, that belongs in the footer element. This
+    gives more ability to modify stying as desired.  -->
+
+    <section id="footer_address">
+      <p>tfxl.<span id="shrink_email_numbers">022105</span>@gmail.com</p>
+    </section>
+
+  </footer>]
 
 
-  </article>
+  
 </body>
 </html>

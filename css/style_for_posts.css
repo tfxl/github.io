@@ -1,43 +1,44 @@
+/* Styling for the posts utilises semantic tags and id's to assist recognising the different sections.
+Comments can further assist this where required. Please see HTML for further commenting.  */
+
+/* Reset our defaults to zero with border-box option */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .italics {
   font-style: italic;
 }
 
+/* Semantic tags allow this to be easily navigatable */
+
 header {
   display: flex;
-  position:fixed;
-  top: 0;
+  position: fixed;
   background-color: rgb(43, 43, 43);
   width: 100%;
   height: 1px;
 }
 
 header h2 {
-  position: relative;  
-  font-family: 'La Belle Aurore', cursive;
+  position: relative;
+  font-family: "La Belle Aurore", cursive;
   letter-spacing: 0.1em;
   text-align: justify;
-  color: rgb(119, 17, 17); 
+  color: rgb(119, 17, 17);
   background-color: white;
-}
-
-header h2 {
-  font-size: 3.5em;;
-  /* top: 10px;
-  left: 10px; */
-  /* right: 10px; */
+  font-size: 3.5em;
   left: 20px;
 }
+
+/* These become optional if activated in HTML */
 
 .parent_span,
 .programmer_span {
   font-size: 0.3em;
-  color: rgba(255, 255, 255,0.5); 
+  color: rgba(255, 255, 255, 0.5);
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: -10px;
@@ -48,11 +49,13 @@ header h2 {
   color: white;
 }
 
+/* A grid design assists with positioning, allowing a change for responsive design 
+viewports for phone and tablet. The article will encapsulate all of these  */
 
 article {
-    display: grid;
-    grid-template-columns: 1fr 1px 720px 70px;
-    grid-template-rows: 100px 65px 55px 800px 1fr; 
+  display: grid;
+  grid-template-columns: 1fr 1px 720px 70px;
+  grid-template-rows: 100px 65px 55px 800px 1fr;
 }
 
 img {
@@ -61,6 +64,8 @@ img {
   z-index: -1;
 }
 
+/* Some, such as these, are placed to benefit the styling. The containers help to create
+backgrounds where required to cover scrolling text for instance.  */
 
 #transparent_top {
   grid-column: 2 / span 3;
@@ -69,9 +74,10 @@ img {
   justify-content: center;
   background-color: white;
   position: sticky;
-  top: 0; 
+  top: 0;
 }
 
+/* Further use of identity tags allow for increased recognition to adapt styling. */
 
 #main_heading {
   grid-column: 3 / span 1;
@@ -79,11 +85,11 @@ img {
   display: flex;
   justify-content: center;
   /* border-left: 5px solid white; */
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 #main_heading h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* -webkit-text-fill-color: rgb(255, 255, 255);  */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.9);
@@ -95,22 +101,21 @@ img {
   border-top: 1px solid red;
 }
 
-
 #sub_heading {
   grid-column: 2 / span 3;
   grid-row: 3 / span 1;
   width: 100%;
   display: flex;
   justify-content: center;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: "La Belle Aurore", cursive;
   letter-spacing: 0.2em;
   font-size: 0.9em;
-  background-color: white;  
+  background-color: white;
 }
 
-#sub_heading h2 { 
+#sub_heading h2 {
   position: fixed;
-  border-bottom: 30px solid white ;
+  border-bottom: 30px solid white;
   background-color: white;
   color: rgb(119, 17, 17);
   margin: 0 20px 0 20px;
@@ -121,7 +126,7 @@ img {
   grid-row: 4 / span 2;
 
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
 
   height: 100%;
@@ -130,16 +135,18 @@ img {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* This is a suitable set of identies with semantic children to follow on the page. */
+
 #post_of_the_week h2 {
   width: 100%;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.1em;
 }
 
 #post_of_the_week figure {
   display: flex;
- 
+
   width: 200px;
   height: 200px;
   background-color: red;
@@ -153,10 +160,9 @@ img {
   width: 100%;
   text-align: center;
   font-style: italic;
-  font-size: 0.8rem; 
+  font-size: 0.8rem;
   letter-spacing: 0.5em;
 }
-
 
 #post_of_the_week p {
   padding: 20px;
@@ -167,5 +173,125 @@ img {
   line-height: 0.4;
   padding-top: 20px;
   color: rgba(0, 0, 0, 0.8);
-  margin-top: 10px; 
+  margin-top: 10px;
+}
+
+/* This is where the responsive design is able to modify the display for tablet and phone.
+The characteristic changes are evident with semantic tags and identities or classes. It can
+be noted that there are multiple widths used to best respond to multiple device widths */
+
+@media screen and (max-width: 1000px) {
+  header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .parent_span,
+  .programmer_span {
+    display: none;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 100px 65px 55px 800px 1fr;
+  }
+
+  img {
+    display: none;
+  }
+
+  #transparent_top {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+  }
+
+  #main_heading {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  #main_heading h1 {
+    letter-spacing: 0.1em;
+    font-size: 2.8em;
+    line-height: 1.5;
+  }
+
+  #sub_heading {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+  }
+
+  #post_of_the_week {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    padding: 10px 50px 0px 50px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  #main_heading h1 {
+    letter-spacing: 0.1em;
+    font-size: 2.2em;
+    line-height: 1.5;
+  }
+
+  #sub_heading h2 {
+    font-size: 1.18em;
+  }
+
+  #post_of_the_week {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    padding: 10px 20px 0px 20px;
+  }
+
+  #transparent_top {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+    background-color: white;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main_heading h1 {
+    letter-spacing: 0.1em;
+    font-size: 1.8em;
+    line-height: 3.5;
+  }
+
+  #post_of_the_week {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    padding: 10px 10px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main_heading h1 {
+    letter-spacing: 0.1em;
+    font-size: 1.4em;
+    line-height: 3.5;
+  }
+
+  #sub_heading h2 {
+    font-size: 1.2em;
+  }
+
+  #post_of_the_week {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    padding: 10px 10px 0px 10px;
+  }
+
+  #date {
+    margin-top: 30px;
+  }
 }
