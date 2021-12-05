@@ -14,7 +14,7 @@ Website deploy via GitHub Pages:
  https://tfxl.github.io  
 <br>
 
-The purpose of this website is to communicate coding ability and design capabilites to a prospective employer, and also offer an insight into potential work output. It will help to demonstrate an awareness of function and features, including creating a visual impact.
+The purpose of this website is to communicate coding ability and design capabilities to a prospective employer, and also offer an insight into potential work output. It will help to demonstrate an awareness of function and features, including creating a visual impact.
 
 This website can also provide some insight into the type of person I am, through photos and text. It may assist building an overall picture of skills and what is important in my life.
 
@@ -26,7 +26,7 @@ Remembering that target audience is a prospective employer, the website is tailo
 
 Tech Stack to create this website are html and css. Further use of git, Github, Balsamiq and Powerpoint. All photos are owned by the author.
 
-Wireframes, sitemap and screen shots of the website in design and devlopment can be found in the following .pdf file:
+Wireframes, sitemap and screen shots of the website in design and development can be found in the following .pdf file:
 
 https://github.com/tfxl/tfxl.github.io/blob/main/ppt/LONG%20T1A2%20Slide%20Deck%20PDF.pdf
 
